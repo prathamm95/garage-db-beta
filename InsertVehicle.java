@@ -31,7 +31,7 @@ public class InsertVehicle {
 
             System.out.println("Select vehicle type - Bike/Car?");
             String vehicleType = scanner.next();
-//            do {
+
                 if (vehicleType.equals("Bike") || vehicleType.equals("Car")) {
                     System.out.println("Added successfully");
                 } else if (vehicleType != "Bike" || vehicleType != "Car") {
@@ -44,7 +44,7 @@ public class InsertVehicle {
                     System.out.println("Sorry can't service this vehicle");
                 }
                 vehicle.setVehicleType(vehicleType);
-//            } while (vehicleType != "Bike" || vehicleType != "Car");
+
 
             double repairCost;
             if (vehicleType.equals("Bike")) {
